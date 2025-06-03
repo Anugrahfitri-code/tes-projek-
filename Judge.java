@@ -6,6 +6,10 @@ public class Judge extends EventUser {
         super(username, password);
     }
 
+    public void submitIdea(String title, String description) {
+        submittedIdeas.add(new Idea(title, description, this));
+    }
+
     public void voteIdea(Idea idea) {
         idea.addVote();
     }
