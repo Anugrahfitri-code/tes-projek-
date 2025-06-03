@@ -12,6 +12,9 @@ public class Idea {
         this.creator = creator;
         this.votes = 0;
     }
+    public setDescription(){
+        this.description = 0;
+    }    
 
     public void addVote() {
         votes++;
