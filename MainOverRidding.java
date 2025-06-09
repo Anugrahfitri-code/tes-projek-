@@ -30,7 +30,7 @@ class MahasiswaReguler extends OverRiddingMahasiswa {
 
     @Override
     public void tugas() {
-        System.out.println(nama + " mengerjakan tugas kuliah biasa.");
+        System.out.println(nama + " mengerjakan tugas kuliah biasa. dan bermain");
     }
 }
 
