@@ -65,6 +65,10 @@ public class Idea {
     public double getAverageScore() { return averageScore.get(); }
     public DoubleProperty averageScoreProperty() { return averageScore; }
 
+
+    //haloo
+    //tes saja
+
     // Votes List
     public List<Vote> getVotes() { return votes; }
 
